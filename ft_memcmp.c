@@ -6,13 +6,13 @@
 /*   By: tmabunda <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/10 16:18:08 by tmabunda          #+#    #+#             */
-/*   Updated: 2019/06/18 16:43:36 by tmabunda         ###   ########.fr       */
+/*   Updated: 2019/06/29 11:17:05 by tmabunda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_memcmp(void *s1, void *s2, size_t n)
+int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	unsigned int		i;
 	char				*str1;
