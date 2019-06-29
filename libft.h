@@ -6,7 +6,7 @@
 /*   By: tmabunda <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/20 15:04:00 by tmabunda          #+#    #+#             */
-/*   Updated: 2019/06/27 15:00:37 by tmabunda         ###   ########.fr       */
+/*   Updated: 2019/06/29 11:19:48 by tmabunda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ int		ft_strnequ(char const *s1, char const *s2, size_t n);
 void	ft_memdel(void **ap);
 void	ft_strdel(char **as);
 void	*ft_memccpy(void *dest, const void *src, int c, size_t n);
-int		ft_memcmp(void *s1, void *s2, size_t n);
+int		ft_memcmp(const void *s1, const void *s2, size_t n);
 void	*ft_memalloc(size_t size);
 char	*ft_strnew(size_t size);
 void	ft_strclr(char *str);
